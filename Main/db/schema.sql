@@ -1,0 +1,9 @@
+DROP DATABASE IF EXISTS vad_db;
+CREATE DATABASE vad_db;
+
+USE vad_db;
+
+CREATE TABLE view_departments (
+  id INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
+  names VARCHAR(100) NOT NULL
+);
